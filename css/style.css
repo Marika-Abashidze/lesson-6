@@ -1,0 +1,49 @@
+.spongebob{
+  position: relative;
+	width: 100%;
+  height: 1000px;
+	
+	
+}
+.patrick{
+	position: absolute;
+	top: 800px;
+    width: 150px;
+    height: 150px;
+    animation: patrick 5s infinite;
+   
+}
+.animation-block{
+	position: relative;
+}
+@keyframes patrick{
+  from {left: 0px;}
+  to {left: 300px;}
+}
+.sponge-bob{
+	position: absolute;
+	width: 150px;
+    height: 150px;
+	top: 700px;
+    right: 50px;
+    animation: sponge-bob 5s infinite
+}
+@keyframes sponge-bob{
+  0%   {right: 0px;}
+  25%  {right: 50px;}
+  50%  {right: 100px;}
+  75%  {right: 200px;}
+  100% {right: 300px;}
+}
+
+.squidward{
+	position: absolute;
+	width: 200px;
+    height: 200px;
+    top: 30px;
+    right: 550px;
+    animation: squidward 5s infinite
+}
+@keyframes squidward{
+  from {top: 30px;}
+  to {top: 600px;}
